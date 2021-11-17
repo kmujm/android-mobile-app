@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/pmini/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_additem.xml" value="0.264" />
-        <entry key="..\:/Users/pmini/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/pmini/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_second.xml" value="0.2" />
-        <entry key="..\:/Users/pmini/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_third.xml" value="0.2" />
-        <entry key="..\:/Users/pmini/AndroidStudioProjects/MyApp/app/src/main/res/layout/list_item.xml" value="0.176" />
+        <entry key="..\:/Users/pmini/AndroidStudioProjects/assignment/app/src/main/res/layout/activity_add.xml" value="0.2" />
+        <entry key="..\:/Users/pmini/AndroidStudioProjects/assignment/app/src/main/res/layout/activity_info.xml" value="0.264" />
+        <entry key="..\:/Users/pmini/AndroidStudioProjects/assignment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/pmini/AndroidStudioProjects/assignment/app/src/main/res/layout/activity_second.xml" value="0.2" />
+        <entry key="..\:/Users/pmini/AndroidStudioProjects/assignment/app/src/main/res/layout/activity_third.xml" value="0.264" />
+        <entry key="..\:/Users/pmini/AndroidStudioProjects/assignment/app/src/main/res/layout/third_item.xml" value="0.1" />
       </map>
     </option>
   </component>

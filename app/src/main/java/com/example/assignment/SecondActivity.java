@@ -1,6 +1,5 @@
-package com.example.myapp;
+package com.example.assignment;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,20 +16,19 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
 public class SecondActivity extends AppCompatActivity {
-
     private TextView banner;
     private EditText userEmail, password, username, phone, address;
     private RadioButton accept, decline;
@@ -72,6 +70,7 @@ public class SecondActivity extends AppCompatActivity {
 
             }
         });
+
 
 
         submitBtn.setOnClickListener(new View.OnClickListener() {
@@ -146,7 +145,7 @@ public class SecondActivity extends AppCompatActivity {
                         mDialog.dismiss();
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     } else {
-                        Toast.makeText(SecondActivity.this, "회원가입 실패!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SecondActivity.this, "회원가입 실패!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         mDialog.dismiss();
                     }
                 });

@@ -1,5 +1,5 @@
-# mobileProgramming
-모바일프로그래밍 개인프로젝트
+# android-mobile-app
+모바일 프로그래밍 개인 과제
 
 # 구현 기능
 1. 첫번째 화면(RelativeLayout 사용)
